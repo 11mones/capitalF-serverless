@@ -23,7 +23,7 @@ class handler(BaseHTTPRequestHandler):
             data = json.loads(response.read())
 
             for element in data:
-                d = element['name']['common']
+                d = element['capital'][0]
                 message = "The capital of {} is {}".format(country, d)
                 list_of_def.append(message)
 

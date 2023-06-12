@@ -14,13 +14,11 @@
 
 How to run the endpoints ? 
 
+**visit this :**
 
-        python pythonic_garage_band.py
+        https://capital-f-serverless.vercel.app/api/capital-finder?country=Germany
+        // The capital of Germany is berlin
+        or
+        https://capital-f-serverless.vercel.app/api/capital-finder?capital=berlin
+        // berlin is the capital of Germany
 
-**Tests**
-
-
-
-How to run tests?
-
-          pytest band.py
